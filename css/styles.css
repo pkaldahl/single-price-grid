@@ -1,0 +1,90 @@
+
+body{
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+}
+
+h1{
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+p {
+  font-size: .8em;
+}
+
+ul {
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+ font-size: .8em;
+}
+
+.container-fluid{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+
+/* Community Section */
+.community {
+  background-color: #ffff;
+  margin-top: 100px;
+  color: hsl(218, 22%, 67%);
+  padding: 30px;
+  border-radius: 12px 12px 0px 0px;
+
+}
+
+.community h3{
+  color: hsl(71, 73%, 54%);
+}
+
+
+/* Subscription Section */
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: #ffff;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+  padding: 30px;
+  border-radius: 0 0 0 12px;
+}
+
+
+/* Why Us Section */
+
+.why-us {
+  background-color: hsl(179, 73%, 43%);
+  color: hsl(204, 43%, 93%);
+  padding: 30px;
+  border-radius: 0 0 12px 0;
+}
+
+
+@media (max-width: 1028px) {
+  .why-us {
+    border-radius: 0 0 12px 12px;
+  }
+
+  .subscription {
+    border-radius: 0;
+  }
+}
